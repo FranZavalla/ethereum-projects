@@ -4,10 +4,14 @@ coverage
 coverage.json
 typechain
 typechain-types
-
-# Hardhat files
 cache
+/dist
+/bundle
+/types
+.env
+.env.*
+!.env.example
+/.gas-snapshot
+/snapshots
 artifacts
-
 .vscode
-
